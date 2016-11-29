@@ -1,0 +1,26 @@
+{
+  "name": "wechat-jsapi-sign",
+  "version": "0.1.0",
+  "description": "Wechat jsapi sign microservice",
+  "keywords": [
+    "wechat",
+    "server",
+    "token",
+    "微信JSAPI",
+    "微信JSSDK",
+    "微信公众平台"
+  ],
+  "author": "AJ <ajluo@qq.com>",
+  "license": "MIT",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "^4.14.0",
+    "jssha": "^1.5.0",
+    "request": "^2.79.0",
+    "request-promise": "^4.1.1"
+  }
+}
