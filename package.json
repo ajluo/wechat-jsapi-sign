@@ -12,7 +12,6 @@
   ],
   "author": "AJ <ajluo@qq.com>",
   "license": "MIT",
-  "private": true,
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
