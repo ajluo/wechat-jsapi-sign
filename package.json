@@ -11,10 +11,20 @@
     "微信公众平台"
   ],
   "author": "AJ <ajluo@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ajluo/wechat-jsapi-sign.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ajluo/wechat-jsapi-sign/issues"
+  },
   "license": "MIT",
-  "main": "app.js",
+  "engines": {
+    "node": ">= 4"
+  },
+  "main": "./src/app.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node ./src/app.js"
   },
   "dependencies": {
     "express": "^4.14.0",
